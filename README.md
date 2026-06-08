@@ -1,4 +1,4 @@
-# ShopNest – Full Stack MERN E-Commerce Platform
+ ## MERN E-Commerce Platform
 
 A full-featured MERN stack e-commerce application with authentication, cart system, admin dashboard, Cloudinary image uploads, and Razorpay (with dummy fallback mode).
 
@@ -32,7 +32,7 @@ A full-featured MERN stack e-commerce application with authentication, cart syst
 # PROJECT STRUCTURE
 
 ```bash
-shopnest/
+shopping/
 │
 ├── backend/
 │   ├── controllers/
@@ -62,7 +62,7 @@ shopnest/
 
 ```bash
 git clone <repo-url>
-cd shopnest
+cd shopping
 ```
 
 ---
@@ -109,7 +109,7 @@ Add:
 PORT=5000
 NODE_ENV=development
 
-MONGO_URI=mongodb://127.0.0.1:27017/shopnest
+MONGO_URI=Atlas_Uri
 
 JWT_SECRET=super_secret_key
 
@@ -313,13 +313,3 @@ Payment not working -> use Dummy Mode
 ```
 
 ---
-
-# FINAL START COMMAND
-
-```bash
-git clone <repo>
-cd shopnest
-npm install
-mongod
-npm run dev
-```
