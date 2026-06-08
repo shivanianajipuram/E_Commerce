@@ -1,4 +1,4 @@
-MERN E-Commerce Platform
+ ## MERN E-Commerce Platform
 
 A full-featured MERN stack e-commerce application with authentication, cart system, admin dashboard, Cloudinary image uploads, and Razorpay (with dummy fallback mode).
 
