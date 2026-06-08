@@ -41,7 +41,6 @@ function App() {
           <Route path="/admin/users" element={<AdminUsers />} />
         </Routes>
       </div>
-      <Footer />
     </Router>
   );
 }
