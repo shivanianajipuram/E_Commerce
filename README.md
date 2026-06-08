@@ -178,7 +178,11 @@ Backend  -> http://localhost:5000
 ```
 
 ---
-
+## NOTE
+If the local host port doesnt work go to windows and terminate the host .
+```bash
+npx kill PORT_NUMBER
+```
 # USER FLOW
 
 ## Login / Register
@@ -248,7 +252,7 @@ View purchase history
 ## Admin Login
 
 ```bash
-Email: admin@shopnest.com
+Email: admin@shopping.com
 Password: password123
 ```
 
@@ -311,5 +315,9 @@ MongoDB not running -> run mongod
 Images not uploading -> check Cloudinary keys
 Payment not working -> use Dummy Mode
 ```
-
 ---
+
+## LIVE DEMO:
+```bash
+https://e-commerce-8lds.onrender.com
+```
